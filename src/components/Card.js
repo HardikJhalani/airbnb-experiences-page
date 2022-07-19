@@ -15,7 +15,7 @@ function Card(props) {
                 <p>{`(${props.reviewCount})`} &#x2022; {props.country}</p>
             </div>
             <p>{props.title}</p>
-            <p><span>From ${props.price} </span>/ person</p>
+            <p className='card-price'><span>From ${props.price} </span>/ person</p>
         </div>
     </div>  
   )

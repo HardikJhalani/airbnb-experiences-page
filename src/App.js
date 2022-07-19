@@ -19,7 +19,9 @@ function App() {
     <div className="App">
       <Navbar />
       <Hero />
-      {card}
+      <div className='cards-list'>
+        {card}
+      </div>
     </div>
   );
 }
