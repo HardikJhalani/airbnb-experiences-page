@@ -7,12 +7,14 @@ import cardsData from './data'
 function App() {
   const card = cardsData.map(item => {
     return (<Card
+                 key = {item.id}
                  img = {require(`./images/${item.coverImg}`)}
                  rating = {item.stats.rating}
                  reviewCount = {item.stats.reviewCount}
                  country = {item.location}
                  title = {item.title}
                  price = {item.price}
+                 status = {item.openSpots}
            />)
   })
   return (

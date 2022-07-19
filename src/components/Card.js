@@ -6,7 +6,7 @@ function Card(props) {
     <div className='card'>
         <div className='card-image'>
             <img src = {props.img} alt = 'katie image' />
-            {/* <p>{props.status}</p> */}
+            {props.status || <p>SOLD OUT</p>}
         </div>
         <div className='card-details'>
             <div className='detail-head'>
