@@ -112,7 +112,7 @@ nav {
   font-weight: 300;
 }
 
-.card-details p {
+.card-details>p {
   color: #222222;
   font-size: 12px;
   font-weight: 300;
